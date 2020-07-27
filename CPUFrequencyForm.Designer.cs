@@ -1,6 +1,6 @@
 ﻿namespace CPUFrequencyMonitor
 {
-    partial class Form1
+    partial class CPUFrequencyForm
     {
         /// <summary>
         /// Required designer variable.
@@ -61,7 +61,7 @@
             this.labelHintMhzConst.TabIndex = 3;
             this.labelHintMhzConst.Text = "MHz";
             // 
-            // Form1
+            // CPUFrequencyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -70,7 +70,9 @@
             this.Controls.Add(this.textBoxFrequency);
             this.Controls.Add(this.labelHintCpuFrequencyConst);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form1";
+            this.MaximizeBox = false;
+            this.Name = "CPUFrequencyForm";
+            this.ShowIcon = false;
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -5,7 +5,7 @@ using System.Windows.Threading;
 
 namespace CPUFrequencyMonitor
 {
-    public partial class Form1 : Form
+    public partial class CPUFrequencyForm : Form
     {
         ManagementObjectSearcher WMIWin32_Processor;
         DispatcherTimer CpuFrequencyCollectionTimer;
@@ -17,7 +17,7 @@ namespace CPUFrequencyMonitor
         long cpuFrequencySum;
         int cpuFrequencyCollectionIterationCounter;
 
-        public Form1()
+        public CPUFrequencyForm()
         {
             InitializeComponent();
 
